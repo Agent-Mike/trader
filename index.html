@@ -1,0 +1,106 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trader.ios</title>
+    <style>
+        body {
+            font-family: arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .header {
+            background-color: #3498db;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .container h2 {
+            color: #6c5ce7;
+            margin-top: 0;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .feature {
+            margin: 20px;
+            padding: 20px;
+            background-color: #f7f7f7;
+            border: 1px solid #dddddd;
+            border-radius: 10px;
+            width: calc(33.33% - 40px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .feature h3 {
+            margin-top: 0;
+        }
+        .call-to-action {
+            background-color: #6c5ce7;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .call-to-action:hover {
+            background-color: #5c51e5;
+        }
+        .footer {
+            background-color: #3498db;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>trader.ios</h1>
+    </div>
+    <div class="container">
+        <h2>welcome to trader.ios</h2>
+        <p>trader.ios is a revolutionary trading platform designed to make trading easier and more accessible than ever before.</p>
+        <div class="features">
+            <div class="feature">
+                <h3>real-time market data</h3>
+                <p>get instant access to real-time market data and make informed trading decisions.</p>
+            </div>
+            <div class="feature">
+                <h3>advanced trading tools</h3>
+                <p>utilize our advanced trading tools to analyze the market and optimize your trading strategy.</p>
+            </div>
+            <div class="feature">
+                <h3>secure and reliable</h3>
+                <p>our platform is built with security and reliability in mind, ensuring your trades are executed safely and efficiently.</p>
+            </div>
+        </div>
+        <button class="call-to-action">get started</button>
+    </div>
+    <div class="footer">
+        &copy; 2024 trader.ios
+    </div>
+    <script>
+        const calltoaction = document.queryselector('.call-to-action');
+        calltoaction.addeventlistener('click', () => {
+            alert('thank you for your interest in trader.ios!');
+        });
+    </script>
+</body>
+</html>
